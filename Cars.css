@@ -1,0 +1,223 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.part-1{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../CARS/merc-glc.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo{
+	color: #fff;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span{
+	color: #e50047;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+	border-radius: 30px;
+	padding: 10px 25px;
+	transition: all .5s;
+}
+
+nav ul li a:hover{
+	color: #e50047;
+	background-color: #e50047;
+	color: white;
+
+}
+
+.btn{
+	transform: translateX(50px);
+	background-color: #e50047;
+	color: white;
+	text-decoration: none;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .6s;
+	font-weight: bold;
+}
+
+.btn:hover{
+
+	transform: scale(1.2);
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: white;
+	line-height: 40px;
+	transform: translateY(-50%);
+	font-size: 20px;
+}
+
+.content h1{
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+.content h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+
+}
+
+.content h3{
+	margin-bottom: 50px;
+}
+
+.newsletter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+
+.newsletter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border-radius: 30px;
+	border: 1px solid #e50047;
+	outline: none;
+
+}
+
+.newsletter form input:last-child{
+	display: inline-block;
+	padding: 10px 25px;
+	border-radius: 30px;
+	border: none;
+	position: absolute;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	cursor: pointer;
+	background-color: #e50047;
+	right: 5px;
+	top: 5px;
+}
+
+.toyota-sect .main img{
+	width: 430px;
+	height: auto;
+	border-radius: 20px;
+
+}
+
+.toyota-sect{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-toyota{
+	width: 550px;
+	vertical-align: top;
+}
+
+.about-toyota h2{
+	font-size: 75px;
+	color: white;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.about-toyota h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.about-toyota p{
+	line-height: 28px;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: #fcfc;
+}
+
+strong, em{
+	color: darksalmon;
+}
+
+button{
+	background-color:  #e50047;
+	color: white;
+	text-decoration: none;
+	padding: 13px 30px;
+	border-radius: 30px;
+	border: 2px solid transparent;
+	cursor: pointer;
+	margin-top: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .4s;
+}
+
+button:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
