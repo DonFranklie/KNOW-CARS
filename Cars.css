@@ -8,7 +8,7 @@
 .part-1{
 	height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../CARS/merc-glc.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../KNOW-CARS/Car-Images/merc-glc.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -198,26 +198,3 @@ button{
 button:hover{
 	transform: scale(1.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
