@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .part-1{
 	height: 100vh;
@@ -14,6 +18,12 @@
 }
 
 .nav{
+	overflow: hidden;
+  	background-color: rgba(255, 255, 255, 0.02);
+  	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
