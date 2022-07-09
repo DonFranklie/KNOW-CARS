@@ -4,8 +4,8 @@
 	box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+html{
+	scroll-behavior: smooth;
 }
 
 
@@ -62,8 +62,7 @@ nav ul li a{
 
 nav ul li a:hover{
 	color: #e50047;
-	background-color: #e50047;
-	color: white;
+	
 
 }
 
