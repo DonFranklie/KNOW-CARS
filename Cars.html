@@ -6,36 +6,35 @@
 		<title>Know Cars</title>
 		<link rel="stylesheet" type="text/css" href="Cars.css">
 		<link rel="icon" href="./Car-Images/favicon.ico">
+		<link rel="stylesheet" href="/Font-awesome/css/all.css">
 	</head>
 	<body>
 		<div class="part-1" id="part-1H">
 			<nav class="nav">
-			<div class="divlogo">
+			  <div class="divlogo">
 				<a href="#part-1H"><h2 class="logo">Know<span>Cars</span></h2></a>
-			</div>
+			 </div>
+			  <div id="wrapper-nav">
+				   
 				<ul>
+					<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
 					<li><a href="#part-1H">Home</a></li>
 					<li><a href="#startT">Toyota</a></li>
 					<li><a href="#startM">Mercedes</a></li>
 					<li><a href="#startE">Tesla</a></li>
 					<li><a href="#startL">Lamborghini</a></li>
 				</ul>
-
-				<!-- <a href="#" class="btn">Join Us</a> -->
+			  </div>
+			  <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+				
 			</nav>
 
 			<div class="content">
 				<h4>Hello ,my name is </h4>
 				<h1><span>Franklin</span></h1>
-				<h3>Get to Know your Car Brands!</h3>
+				<h3>And I would like you to Get to Know about the different Car Brands in the World!</h3>
 
 
-				<!-- <div class="newsletter">
-					<form>
-						<input type="email" name="" id="mail" placeholder="Enter Your Email">
-						<input type="submit" name="submit" value="Join Us">
-					</form>
-				</div> -->
 			</div>
 		</div>
 		<!-- Toyota Section -->
@@ -119,5 +118,22 @@
 
 		   </div>
 		</section>
+
+		<script>
+
+			var toggle = document.getElementById("wrapper-nav");
+
+			function showMenu(){
+				toggle.style.right = "0";
+			}
+
+			
+			function hideMenu(){
+				toggle.style.right = "-200px";
+			}
+
+
+
+		</script>
 	</body>
 </html>
